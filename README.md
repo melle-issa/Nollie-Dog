@@ -1,2 +1,1 @@
-# Test2
-This is the second attempt to figure this out hehe
+This is a website I made for a band named Montra Ca that my friends started. I used this as an opportunity to practice using html and so I could show off what I'm able to do with the language so far. Last updated on 3/13/21. This website will continue to be updated as I am still working on it and the domain name has not yet been purchased. 
