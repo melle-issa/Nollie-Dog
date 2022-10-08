@@ -15,7 +15,7 @@
             background-color: transparent;
             text-decoration: underline;
             }
-
+                       /* for phones */
             h1{
                 color: white;
                 font-size: 40px;
@@ -27,18 +27,18 @@
             }
             .HomeLink{
                 position: absolute;
-                top: 130px;
-                left: 110px;
+                top: 80px;
+                left: 130px;
             }
             .MusicLink{
                 position: absolute;
-                top: 130px;
-                left: 160px;
+                top: 80px;
+                left: 190px;
             }
             .MerchLink{
                 position: absolute;
-                top: 130px;
-                left: 240px;
+                top: 80px;
+                left: 270px;
             }
             .Youtube1{
                 position: relative;
@@ -50,11 +50,20 @@
                 top: 50px;
                 left: 30px;
             }
+            .Youtube3{
+                position: relative;
+                top: 75px;
+                left: 30px;
+            }
             .video1Size{
                 width: 350px;
                 height: 315px;
             }
             .video2Size{
+                width: 350px;
+                height: 315px;
+            }
+            .video3Size{
                 width: 350px;
                 height: 315px;
             }
@@ -68,6 +77,12 @@
                 color: white;
                 position: relative;
                 top: 80px;
+                left: 147px;
+            }
+            .Title3{
+                color: white;
+                position: relative;
+                top: 140px;
                 left: 147px;
             }
             .ContactInfo{
@@ -97,7 +112,12 @@
                 left: 190px;
             }
 
+                        /* for computers */
             @media only screen and (min-width: 768px){
+                h2{
+                    color:white;
+                    text-align: center;
+                }
                 .Youtube1{
                     position: absolute;
                     top: 200px;
@@ -128,6 +148,21 @@
                     top: 900px;
                     left: 350px;
                 }
+                .Youtube3{
+                    position: relative;
+                    top: 480px;
+                    left: 342px;
+                }
+                .video3Size{
+                    width: 560px;
+                    height: 315px;
+                }
+                .Title3{
+                    color: white;
+                    position: absolute;
+                    top: 1300px;
+                    left: 350px;
+                }
                 .HomeLink{
                     position: absolute;
                     top: 100px;
@@ -145,28 +180,33 @@
                 }
                 .ContactInfo{
                     position: absolute;
-                    top: 1080px;
+                    top: 1380px;
                     right: 200px;
                 }
                 .instaLogo{
                     position: absolute;
-                    top: 1130px;
-                    left: 500px;
+                    top: 1430px;
+                    left: 550px;
                 }
                 .InstaLink{
                     position: absolute;
-                    top: 1135px;
-                    left: 540px;
+                    top: 1435px;
+                    left: 600px;
                 }
                 .bcLogo{
                     position: absolute;
-                    top: 1160px;
-                    left: 490px;
+                    top: 1470px;
+                    left: 540px;
                 }
                 .bcLink{
                     position: absolute;
-                    top: 1165px;
-                    left: 550px;
+                    top: 1475px;
+                    left: 600px;
+                }
+                .latest{
+                    position: absolute;
+                    top: 540px;
+                    right: 550px;
                 }
             }
         </style>
@@ -180,16 +220,22 @@
         <div class = "MerchLink"><a href="Merch.html"> Merch </a></div>
         <div class = "HomeLink"><a href="index.html"> Home </a></div>
 
-        <h2> Our Latest Song: </h2>
+        <h2> Our Most Popular Song: </h2>
         <div class = "Youtube1">
-        <iframe class = "video1Size" src="https://www.youtube.com/embed/agKF7KR0g64" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Y24YBCNXlNU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <h4 class = "Title1"> "What the Fuck" </h4>
         
+      <h2 class = "latest" style ="color:white">Latest From Nollie Dog</h2>
         <div class = "Youtube2">
-          <iframe class = "video2Size" src="https://www.youtube.com/embed/OCUvsa5Rris" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/1ej29oe6xz8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <h4 class = "Title2"> "Burn Out" </h4>
+        <h4 class = "Title2"> "Concrete" </h4>
+
+        <div class = "Youtube3">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Gqax4DHWCjo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <h4 class = "Title3"> "Ape Shit" </h4>
 
 
         <h4 class = "ContactInfo" style="color:white"> Check us out!</h4>
